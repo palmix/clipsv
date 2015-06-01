@@ -1,0 +1,93 @@
+RELEASE NOTES
+Web SDK v4.3
+
+Following are the feature enhancements and bug fixes included in the MB Web SDK v4.3 update.
+For complete documentation, please refer to the user manual included in this package.
+
+- What's New
+	1) Added a new targeting parameter 'Interest'
+	
+- Bug Fixes
+	1) Resolved 'jQuery.noConflict()' issue
+
+Web SDK v4.2
+
+- What's New
+	1) Skip ad option
+
+
+- Changes
+	1) Setting Ad length has been removed
+	2) New result codes were added
+	3) New callbacks were added
+	4) Associative arrays were renamed
+
+
+Web SDK v4.1
+
+- Minor bug fixes
+	
+	
+Web SDK v4.0
+
+- What's New
+	1) Enhanced SDK - Server communication
+
+- Changes
+	1) Ad length categories changed to the following:
+		Short - up to 10 seconds
+		Normal - up to 20 seconds
+		Long - up to 30 seconds
+
+
+Web SDK v3.0.2
+
+- Bug Fixes
+	1) Fixed IE7 bug
+
+Web SDK v3.0.1
+
+- Bug Fixes
+	1) Fixed result code for unsupported requests from iOS devices & Opera browser
+
+Web SDK v3.0
+
+- Additions
+	1) Synchronized Companion Banner Ads
+	2) Music Genre targeting
+	3) Mood based targeting
+	4) Mobile Web support
+
+- Changes
+	1) Ad length range 'Short' is now 1-10 seconds
+	2) Ad length range 'Normal' is now 10-20 seconds
+	3) Ad length range 'Long' is now 20-30 seconds
+	4) Library file name SDK.js changed to MB_SDK_Web.js
+	5) Library contains 2 new files: MB_SDK_SCRIPT.js and MB_SDK_Web.css 
+
+- Bug Fixes
+	1) Fixed targeting issues
+	2) Fixed bug where Audio Ads were not delivered to FireFox 10 users.
+
+
+Web SDK v2.1.2
+
+- Additions
+	1) "Setting User Language"
+
+	
+Web SDK v2.1.1
+
+
+- Additions
+	1) "Location" targeting
+	2) "Application Type" targeting
+	3) Added an Ad length argument in the ad request. Ads can be requested based on their ad length category.
+	
+- Changes
+	1) Library file name VDK.js changed to SDK.js
+	2) Library path (folder name) changed from /VDK to /SDK
+	3) To initialize the SDK use SDKPlayerInit('API_KEY'); instead of VDKPlayerInit('API_KEY'); 
+	
+- Bug Fixes
+	1) Fixed bug where Audio Ads were not delivered to IE9 users.
