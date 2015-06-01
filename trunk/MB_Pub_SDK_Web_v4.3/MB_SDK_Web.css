@@ -1,0 +1,7 @@
+
+.mbBannerClose {position:absolute; top: -15px; left: -15px; width:40px; height:40px; cursor:pointer;}
+.mbLinkDiv {position:absolute; right: 0px; bottom: 0px; width:100px; height:22px; }
+.mbLinkRight {position:absolute; right: 0px; bottom: 0px; width:21px; height:22px; cursor:pointer; text-align: left; }
+.mbLinkLeft {position:absolute; right: 21px; bottom: 0px; height:22px; cursor:pointer;}
+.mbAdImg{ padding: 0px;}
+div.floating-menu{position:fixed; z-index:999999; margin: 10px; border: 1px solid #aaa; padding: 0px;}
