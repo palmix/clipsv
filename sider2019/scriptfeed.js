@@ -16,6 +16,7 @@ if (entry.link[k].rel == 'alternate') {var posttitle = entry.title.$t; posturl =
 
 
 {
+var thumburl = thumburl.replace("s72-c", "s250-c");
 s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){
 thumburl=d;} else thumburl='http://1.bp.blogspot.com/-CFcOcKSvTBw/VMMYipUZBxI/AAAAAAAADSM/hgbdjdVjNeY/s1600/.png';
 }
