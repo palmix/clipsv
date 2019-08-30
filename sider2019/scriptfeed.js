@@ -18,7 +18,7 @@ if (entry.link[k].rel == 'alternate') {var posttitle = entry.title.$t; posturl =
 {
 s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){
 thumburl=d;} else thumburl='http://1.bp.blogspot.com/-CFcOcKSvTBw/VMMYipUZBxI/AAAAAAAADSM/hgbdjdVjNeY/s1600/.png';
-thumburl = 'https://avatars1.githubusercontent.com/u/10962888?s=96&v=4';
+var thumburls = thumburl.replace("s72-c","s250-c");
 }
 
 
@@ -28,7 +28,7 @@ document.write('<div class="slide">');
    
 
 var towrite='';var flag=0;
-document.write('<a href="'+posturl+'" target="_top"><div class="bgoverlay" data-bgimage="'+thumburl+'?imgmax=250" title="'+posttitle+'" alt="'+posttitle+'"></div><div class="desc"><div class="ccsmyparallaxslider" target="_top" href="'+posturl+'" dir="rtl" >'+posttitle+'</div>');
+document.write('<a href="'+posturl+'" target="_top"><div class="bgoverlay" data-bgimage="'+thumburls+'?imgmax=250" title="'+posttitle+'" alt="'+posttitle+'"></div><div class="desc"><div class="ccsmyparallaxslider" target="_top" href="'+posturl+'" dir="rtl" >'+posttitle+'</div>');
 document.write('</a>'+'</div>');
 document.write('</div>');
 
