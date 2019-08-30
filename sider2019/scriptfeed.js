@@ -16,8 +16,9 @@ if (entry.link[k].rel == 'alternate') {var posttitle = entry.title.$t; posturl =
 
 
 {
-var thumburls = thumburl.replace("s72-c", "s250-c");
+
 s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){
+var thumburls = thumburl.replace("s72-c", "s250-c");
 thumburl = thumburls} else thumburl =d;
 }
 
