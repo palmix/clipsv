@@ -11,7 +11,7 @@ slideduration: 1000 //transition duration (milliseconds)
 
   function recent(json) {document.write(''); for (var i = 0; i < numposts; i++) {var entry = json.feed.entry[i];var posturl;if (i == json.feed.entry.length) break;for (var k = 0; k < entry.link.length;k++){
 if(entry.link[k].rel=='replies'&&entry.link[k].type=='text/html'){var commenttext=entry.link[k].title;var commenturl=entry.link[k].href;}
-if (entry.link[k].rel == 'alternate') {var posttitle = entry.title.$t; posturl = entry.link[k].href;break;}}var thumburl;try {thumburl=entry.media.url;}catch (error)
+if (entry.link[k].rel == 'alternate') {var posttitle = entry.title.$t; posturl = entry.link[k].href;break;}}var thumburl;try {thumburl=entry.media$thumbnail.url;}catch (error)
 
 
 
